@@ -3,7 +3,7 @@
         <div class="container mx-auto">
             <heading description="TIPS, INSIGHTS, AND BEST PRACTICES ABOUT WEB DESIGN AND DEVELOPPMENT" span="Latest">Posts</heading>
             <div class="w-full lg:w-5/6 mx-auto">
-                <div class="mt-14 grid grid-flow-col grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-2 gap-7">
+                <div class="mt-14 grid grid-flow-col grid-cols-1 grid-rows-4 lg:grid-cols-2 lg:grid-rows-2 gap-7">
                     <div class="text-white" v-for="blog in blogs" :key="blog.id">
                         <blog-card :blog="blog" />
                     </div>
