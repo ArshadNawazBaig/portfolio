@@ -1,5 +1,5 @@
 <template>
-  <nav class="z-10 p-5 w-16 flex justify-center text-white items-center flex-col bg-gray-700 rounded-full fixed mt10 ml-10 top-10 cursor-pointer" @click="isOpen = !isOpen">
+  <nav class="no-sel z-10 p-5 w-16 flex justify-center text-white items-center flex-col bg-gray-700 rounded-full fixed mt10 ml-10 top-10 cursor-pointer" @click="isOpen = !isOpen">
       <span v-if="isOpen">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -77,5 +77,12 @@ export default {
 </script>
 
 <style>
-
+ .no-sel{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 </style>
