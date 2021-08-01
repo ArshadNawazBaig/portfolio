@@ -15,7 +15,7 @@ module.exports = {
         'hero-image': "url('/assets/hero-image.jpg')"
       },
       fontFamily: {
-        sans: ['Gilroy'],
+        sans: ['Raleway'],
       },
       gridTemplateRows: {
         // Simple 8 row grid

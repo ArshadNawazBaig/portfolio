@@ -4,7 +4,7 @@
             <heading description="I’M ALWAYS OPEN TO DISCUSSING PRODUCT DESIGN WORK OR PARTNERSHIPS." span="Get">In touch</heading>
             <div class="w-full lg:w-5/6 mx-auto">
                 <div class="mt-14 grid grid-flow-col grid-cols-1 grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 gap-7">
-                    <div>
+                    <div class="row-auto">
                         <p class="text-white uppercase text-sm">
                             phone
                         </p>
@@ -49,7 +49,7 @@
 
                         </div>
                     </div>
-                    <div class="col-span-2">
+                    <div class="col-span-1 lg:col-span-2 row-auto">
                         <p class="text-white text-md">If you have any suggestion, project or even you want to say Hello.. please fill out the form below and I will reply you shortly.</p>
                         <form class="mt-5">
                             <div class="grid grid-flow-col grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 gap-7">
@@ -70,7 +70,7 @@
                                     <path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z" />
                                     <path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z" />
                                     </svg>
-                                    <textarea placeholder="YOUR MESSAGE" class="rounded-lg w-full border border-transparent focus:outline-none focus:ring-2 focus:ring-primary bg-gray-600 py-3 pl-14 text-white focus:border-transparent " name="" id=""  rows="5"></textarea>
+                                    <textarea placeholder="YOUR MESSAGE" class="rounded-lg w-full border border-transparent focus:outline-none focus:ring-2 focus:ring-primary bg-gray-600 py-3 pl-14 text-white focus:border-transparent " name="" id=""  rows="12"></textarea>
                                 </div>
                             </div>
                             <div class="grid grid-flow-col grid-cols-1 mt-5">

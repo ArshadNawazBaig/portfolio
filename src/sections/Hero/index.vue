@@ -1,11 +1,11 @@
 <template>
-  <div class="hero h-screen bg-auto bg-cover bg-no-repeat bg-left-top" :style="`background-image: url(${Image})`">
+  <div class="hero h-screen bg-auto bg-cover bg-black bg-no-repeat bg-left-top" >
+      <!-- :style="`background-image: url(${Image})`" -->
       <div class="container mx-auto text-white h-full">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 h-full">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 h-full">
                 <div></div>
                 <div class="flex items-center h-full">
                     <div class="info">
-                        <p class="text-red uppercase text-lg md:text-2xl">Hi there!</p>
                         <h2 class="uppercase mt-3 text-base font-bold text-3xl md:text-5xl text-center sm:text-left">I'm <span class="text-primary bg-primary-100 text-white px-6 rounded-lg block sm:inline-block">
                             <vue-typer
                             :text='["Arshad Nawaz!", "a Freelancer!","a web developer!","a designer!", "a blogger!"]'
@@ -43,13 +43,13 @@
 </template>
 
 <script>
-import Image from './../../assets/hero-image.jpg'
+// import Image from './../../assets/hero-image.jpg'
 import Button from './../../components/Button/index.vue'
 import { VueTyper } from 'vue-typer'
 export default {
     data() {
         return{
-            Image: Image
+            // Image: Image
         }
     },
     components: {
